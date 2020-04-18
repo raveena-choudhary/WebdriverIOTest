@@ -1,0 +1,22 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^6.0.18"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^6.0.18",
+    "@wdio/mocha-framework": "^6.0.16",
+    "@wdio/spec-reporter": "^6.0.16",
+    "@wdio/sync": "^6.0.18",
+    "chromedriver": "^80.0.2",
+    "wdio-chromedriver-service": "^6.0.2"
+  }
+}
